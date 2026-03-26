@@ -16,7 +16,7 @@ app.get('/', async (req, res) => {
   res.send(response);
 });
 
-app.get('/ping', async (_, res) => {
+app.get('/ping/po', async (_, res) => {
   res.send('pong');
 });
 

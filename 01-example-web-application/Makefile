@@ -8,7 +8,7 @@ run-postgres:
 		-v pgdata:/var/lib/postgresql/data \
 		-p 5432:5432 \
 		postgres:15.1-alpine
-
+#  cd 01-example-web-application
 .PHONY: run-api-node
 run-api-node:
 	@echo Starting node api
